@@ -10,11 +10,6 @@
     "prepare": "husky install",
     "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{ts,css,html}\""
   },
-  "husky": {   
-    "hooks": {  
-       "pre-commit": "npm run prettier:check"        
-     }   
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.2.0",
@@ -43,6 +38,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "~5.1.3"
   }
 }
